@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mauricio Cayasso">
+    <meta name="copyright" content="Mauricio Cayasso">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css"/>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="/assets/images/icons/moon.svg" alt="icon-theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div class="flags" id="flags">
+        <div class="flags__item" data-language="es">
+          <img src="/assets/images/icons/es.svg" alt="Spanish" class="flags_img">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="/assets/images/icons/gb.svg" alt="English" class="flags_img">
+        </div>
+      </div>
+      <div id="toggle-color" class="colors">
+        <div data-colors="hsl(337 92% 29%)" class="colors__item colors__item--came"></div>
+        <div data-colors="hsl(45 70% 35%)" class="colors__item colors__item--gold"></div>
+        <div data-colors="hsl(276 84% 35%)" class="colors__item colors__item--purple"></div>
+        <div data-colors="hsl(157 54% 18%)" class="colors__item colors__item--darkgreen"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Tarjeta del Perfil -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="/assets/images/profile.jpg" alt="My Profile">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">Caya Web Developer</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador Full Stack</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+            <a href="mailto:mcayasso@live.com">mcayasso@live.com</a>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:+50662942871">Telf: +506 6294-28-71</a>
+            <p class="card__text" data-section="profile" data-value="description">Más de 4 años como Diseñador Grafico, Varios años trabajando freelancer como Diseñador grafico y audiovisual. Apasionado del Periodismo Deportivo y del Deportivo Saprissa. <br/>Llevo un año como Desarrollador Web y empezando en este mundo de la tecnologia.
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencia</h2>
+          <div class="experience">
+            <img src="/assets/images/web_designer_CWD.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="first-job-dates">
+                Mrazo 2013 - Actual
+              </p>
+              <h3 class="expereence__job" data-section="experience" data-value="first-job-title">Community Manager</h3>
+              <p class="experience__description" data-section="experience" data-value="first-job-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur neque necessitatibus laudantium soluta facere assumenda amet culpa velit rem suscipit. Itaque, cupiditate dolor dolorem ipsum provident a voluptatibus eveniet ducimus!
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="/assets/images/web_designer_CWD.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                Mrazo 2013 - Actual
+              </p>
+              <h3 class="expereence__job" data-section="experience" data-value="second-job-title">Diseñador Grafico</h3>
+              <p class="experience__description" data-section="experience" data-value="second-job-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur neque necessitatibus laudantium soluta facere assumenda amet culpa velit rem suscipit. Itaque, cupiditate dolor dolorem ipsum provident a voluptatibus eveniet ducimus!
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="/assets/images/web_designer_CWD.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time" data-section="experience" data-value="last-job-dates">
+                Mrazo 2013 - Actual
+              </p>
+              <h3 class="expereence__job" data-section="experience" data-value="last-job-title">Diseñador Audiovisual</h3>
+              <p class="experience__description" data-section="experience" data-value="last-job-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur neque necessitatibus laudantium soluta facere assumenda amet culpa velit rem suscipit. Itaque, cupiditate dolor dolorem ipsum provident a voluptatibus eveniet ducimus!
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title" data-section="hobbies" data-value="hobbies-title">Pasatiempo</h2>
+          <div class="card__image-container">
+            <img src="/assets/images/hobbySapri.jpeg" alt="Stadium">
+            <h3 class="hobbie__title" data-section="hobbies" data-value="hobbies-name">Ir al Estadio Ricardo Saprissa</h3>
+            <p class="card__text" data-section="hobbies" data-value="hobbies-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. minus dolores soluta enim tenetur adipisci asperiores debitis reprehenderit officia ullam quo voluptatem quaerat quia.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/assets/images/encriptar.png" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vero expedita modi qui tempore libero officia illo repudiandae fuga! lo
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vero expedita modi qui tempore libero officia illo repudiandae fuga! lo
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/assets/images/juegoAhorcado.png" alt="Landing Page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vero expedita modi qui tempore libero officia illo repudiandae fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum, eos, ex facere perspiciatis reiciendis quia nesciunt, provident dignissimos iste rem vero placeat? Reiciendis ullam minus aut ad nobis exercitationem?
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vero expedita modi qui tempore libero officia illo repudiandae fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum, eos, ex facere perspiciatis reiciendis quia nesciunt, provident dignissimos iste rem vero placeat? Reiciendis ullam minus aut ad nobis exercitationem?
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="/assets/images/disenoGrafico.jpg" alt="designs" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#PSD</span>
+              <span class="project__tag">#DS</span>
+              <span class="project__tag">#WD</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vero expedita modi qui tempore libero officia illo repudiandae fuga!
+            </p>
+            <p class="card__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vero expedita modi qui tempore libero officia illo repudiandae fuga!
+            </p>
+            <div class="buttons">
+              <a href="#" class="button button--primary">Demo</a>
+              <a href="#" class="button button--ghost">Code</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Full Stack</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills__header">
+            <span class="skills__star-level">0</span>
+            <span class="skills__star-level">4</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML5</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS3</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Java</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Design</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills__header">
+            <span class="skills__star-level">0</span>
+            <span class="skills__star-level">4</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ilustrator</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Canvas</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Adobe Express</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Multimedia</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills__header">
+            <span class="skills__star-level">0</span>
+            <span class="skills__star-level">4</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Premiere</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">AfterEffects</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Cap Cut</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Clipchamp</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script type="module" src="/assets/js/scripts.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "profile": {
+       "rol": "Desarrollador Full Stack",
+       "description":"Más de 4 años como experiencia, Varios años trabajando de freelancer como Diseñador grafico y audiovisual. Apasionado del Periodismo Deportivo y del Deportivo Saprissa. <br> Llevo un año como Desarrollador Web y empezando en este mundo de la tecnologia."
+    },
+    "experience": {
+        "first-job-title": "Community Manager",
+        "first-job-dates": "Mrazo 2013 - Actual",
+        "first-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur neque necessitatibus laudantium soluta facere assumenda amet culpa velit rem suscipit. Itaque, cupiditate dolor dolorem ipsum provident a voluptatibus eveniet ducimus!",
+        "second-job-title": "Diseñador Grafico",
+        "second-job-dates": "Mrazo 2013 - Actual",
+        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur neque necessitatibus laudantium soluta facere assumenda amet culpa velit rem suscipit. Itaque, cupiditate dolor dolorem ipsum provident a voluptatibus eveniet ducimus!",
+        "last-job-title": "Diseñador Audiovisual",
+        "last-job-dates": "Mrazo 2013 - Actual",
+        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur neque necessitatibus laudantium soluta facere assumenda amet culpa velit rem suscipit. Itaque, cupiditate dolor dolorem ipsum provident a voluptatibus eveniet ducimus!"
+    },
+    "hobbies": {
+        "hobbies-title": "Pasatiempo",
+        "hobbies-name": "Ir al Estadio Ricardo Saprissa",
+        "hobbies-description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. minus dolores soluta enim tenetur adipisci asperiores debitis reprehenderit officia ullam quo voluptatem quaerat quia."
+    }
+}

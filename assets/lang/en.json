@@ -1,0 +1,22 @@
+{
+    "profile": {
+       "rol":"Full Stack Developer",
+       "description":"More than 4 years as a experience, Several years working as a freelancer as a graphic and audiovisual designer. Passionate about Sports Journalism and Deportivo Saprissa. <br> I've been a Web Developer for a year and starting in this world of technology."
+    },
+    "experience": {
+        "first-job-title": "Community Manager",
+        "first-job-dates": "March 2013 - Present",
+        "first-job-description": "The company itself is a very successful company. It is difficult to assume that the needs of those who praise him should not be taken for granted. And so, with the desire of pain, the pain itself is provided by the pleasures we lead!",
+        "second-job-title": "Diseñador Grafico",
+        "second-job-dates": "March 2013 - Present",
+        "second-job-description": "The company itself is a very successful company. It is difficult to assume that the needs of those who praise him should not be taken for granted. And so, with the desire of pain, the pain itself is provided by the pleasures we lead!",
+        "last-job-title": "Diseñador Audiovisual",
+        "last-job-dates": "March 2013 - Present",
+        "last-job-description": "The company itself is a very successful company. It is difficult to assume that the needs of those who praise him should not be taken for granted. And so, with the desire of pain, the pain itself is provided by the pleasures we lead!"
+    },
+    "hobbies": {
+        "hobbies-title": "Hobbies",
+        "hobbies-name": "Go to Ricardo Saprissa Stadium",
+        "hobbies-description":"Hello, it's really a pain to be followed. for having less pains discharged, he is obliged to acquire harsher debts;"
+    }
+}
